@@ -73,7 +73,7 @@ cmake -G "Visual Studio 12 Win64" ..
 ```
 Then build it.
 
-#### Building Boost Libraries
+#### Building Boost Libraries in Linux.
 
 cd boost_1_55_0
 sudo apt-get update
@@ -84,13 +84,16 @@ sudo apt-get update
 <br>
 <--------- cut-paste END -------------->
 <br>
-Now we build it. <----
+<br>
+Now we build it.
+<br>
 <br>
 <-------- cut-paste BEGIN -------------->
 <br>
 sudo ./b2 --with=all -j 2 cxxflags="-std=c++11" --target=shared,static install
 <br>
 <--------- cut-paste END -------------->
+<br>
 <br>
 sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/local.conf'
 <br>
