@@ -104,8 +104,9 @@ sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/local.conf'
 Now -> Reset the ldconfig:
 
 sudo ldconfig
-<br>
+
 ```
+<br>
 Now we have everything ready to go...
 
 
