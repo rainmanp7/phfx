@@ -77,17 +77,23 @@ Then build it.
 
 cd boost_1_55_0
 sudo apt-get update
+<br>
 <-------- cut-paste BEGIN -------------->
+<br>
 ./bootstrap.sh --prefix=/usr/local --with-libraries=atomic,serialization,date_time,exception,filesystem,iostreams,locale,program_options,regex,signals,system,test,thread,timer,log
+<br>
 <--------- cut-paste END -------------->
-
+<br>
 Now we build it. <----
+<br>
 <-------- cut-paste BEGIN -------------->
+<br>
 sudo ./b2 --with=all -j 2 cxxflags="-std=c++11" --target=shared,static install
+<br>
 <--------- cut-paste END -------------->
-
+<br>
 sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/local.conf'
-
+<br>
 Now -> Reset the ldconfig:
 
 sudo ldconfig
