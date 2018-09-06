@@ -22,10 +22,13 @@ You may download them from:
 - http://www.boost.org/
 
 * To prep source code and quick build *
-***********************
+
+
 1: make cmakelists.txt
+<br>
 2: make -j2
-***********************
+
+
 The built binaries will be in src folder.
 
 Alternatively, it may be possible to install them using a package manager.
