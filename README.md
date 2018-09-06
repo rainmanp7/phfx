@@ -1,6 +1,6 @@
 ## Building Phfirecoin ° PHFX ° / DigitalNote v8.05
 This has been ported over and foked into
-PHfirecoin
+PHfirecoin ... Rpc Advanced ...
 <br>
 #### Block Explorer & Pool Ready.
 <br>
