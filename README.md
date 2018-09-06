@@ -76,6 +76,8 @@ Then build it.
 #### Building Boost Libraries in Linux.
 
 cd boost_1_55_0
+<br>
+<br>
 sudo apt-get update
 <br>
 <-------- cut-paste BEGIN -------------->
