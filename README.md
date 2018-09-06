@@ -74,7 +74,7 @@ cmake -G "Visual Studio 12 Win64" ..
 Then build it.
 
 #### Building Boost Libraries in Linux.
-```
+
 cd boost_1_55_0
 <br>
 <br>
@@ -105,7 +105,7 @@ Now -> Reset the ldconfig:
 
 sudo ldconfig
 
-```
+
 <br>
 Now we have everything ready to go...
 
