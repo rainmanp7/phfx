@@ -75,9 +75,15 @@ cmake -G "Visual Studio 12 Win64" ..
 ```
 Then build it.
 
-#### Building Boost Libraries in Linux.
-
-cd boost_1_55_0
+#### Building Boost Libraries on Linux.
+<br>
+<br>
+wget -O boost_1_55_0.tar.gz http://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.tar.gz/download
+tar xzvf boost_1_55_0.tar.gz
+<br>
+<br>
+cd boost_1_55_0/
+<br>
 <br>
 <br>
 sudo apt-get update
