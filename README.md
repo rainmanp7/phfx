@@ -94,6 +94,7 @@ sudo ./b2 --with=all -j 2 cxxflags="-std=c++11" --target=shared,static install
 <br>
 sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/local.conf'
 <br>
+<br>
 Now -> Reset the ldconfig:
 
 sudo ldconfig
