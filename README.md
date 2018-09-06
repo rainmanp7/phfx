@@ -1,4 +1,4 @@
-## Building DigitalNote v8.05 into PHFX
+## Building Phfx / DigitalNote v8.05
 This has been ported over and foked into
 PHfirecoin
 
