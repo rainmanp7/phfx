@@ -1,0 +1,38 @@
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     CRYPTONOTE_NAME[]                             = "phfx"; <----changed from phfirename for new coin
+
+Added 3 servers as seed nodes.
+  "178.62.228.123:42080",
+  "188.166.76.179:42080",
+  "178.62.73.104:42080",
+
+Intial block reward is 41,000 paid out over 11,000 blocks for the intial premine.
+The normal block reward is 5
+
+ports changed to allow for the 3 new servers to switch over.
+  "178.62.228.123:42085",
+  "188.166.76.179:42085",
+  "178.62.73.104:42085",
+
+const int      P2P_DEFAULT_PORT                              = 42085;
+const int      RPC_DEFAULT_PORT                              = 42086;
+
+const uint64_t START_BLOCK_REWARD                            = (UINT64_C(41000) * parameters::COIN); //changed from 320,000
+const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(5) * parameters::COIN); //changed from 150
+const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
+
+
+--print-genesis-tx
+
+./phfxd --print-genesis-tx
+
+const char GENESIS_COINBASE_TX_HEX[] = "010601ff000180d0acd8a977029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c4deafd09615e7aa34da2a9ccfee5e4530af0f3ff572a156d646fb3a2b9536bc";
+
+
+const uint32_t UPGRADE_HEIGHT_V2                             = 136212;
+const uint32_t UPGRADE_HEIGHT_V3                             = 317950;
+const uint32_t UPGRADE_HEIGHT_V4                             = 338000;
+
+const uint64_t START_BLOCK_REWARD                            = (UINT64_C(41000) * parameters::COIN); //changed from 320,000
+const uint64_t MIN_BLOCK_REWARD                              = (UINT64_C(5) * parameters::COIN); //changed from 150
+const uint64_t REWARD_HALVING_INTERVAL                       = (UINT64_C(11000));
