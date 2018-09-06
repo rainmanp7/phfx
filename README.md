@@ -1,7 +1,9 @@
 ## Building Phfirecoin ° PHFX ° / DigitalNote v8.05
 This has been ported over and foked into
 PHfirecoin
-
+<br>
+#### Block Explorer & Pool Ready.
+<br>
 ### On *Nix:
 
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55 or 1.65.
