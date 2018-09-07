@@ -1,8 +1,10 @@
 ## Building Phfirecoin ° PHFX ° / DigitalNote v8.05
 <br>
 <br><hr>
-# WARNING Unstable Construction!
-<br>
+
+### Unstable Construction
+
+<br><hr>
 <br>
 
 This has been ported over and foked into
